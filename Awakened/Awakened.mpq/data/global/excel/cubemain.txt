@@ -1,0 +1,603 @@
+description	enabled	ladder	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+QUEST	0																																																																																																							0
+Staff of Kings + Amulet of the Viper -> Horadric Staff	1			0	28				2	msf	vip						hst																																																																																							0
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1			0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2	leg	tbk						Cow Portal																																																																																							0
+1 T-Key + 1 H-Key + 1 D-Key -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence + 1 Charged Essence + 1 Burning Essence + 1 Festering Essence -> Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
+POTIONS	0																																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Perfect Gem (Any) -> Full Rejuvenation Potion	1			0					7	hpot,qty=3	mpot,qty=3	gem4					rvl																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Perfect Gem (Any) -> Rejuvenation Potion	1			0					7	hpot,qty=3	mpot,qty=3	gem4					rvs																																																																																							0
+3 Rejuvenation Potions -> Full Rejuvenation Potion	1			0					3	rvs,qty=3							rvl																																																																																							0
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1			0					2	gpl	hpot						yps																																																																																							0
+QUIVERS	0																																																																																																							0
+2 Arrows -> Bolts	1			0					2	aqv,qty=2							cqv																																																																																							0
+2 Bolts -> Arrows	1			0					2	cqv,qty=2							aqv																																																																																							0
+NORMAL WEAPONS	0																																																																																																							0
+1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe	1			0					2	axe	knif						tax,nor																																																																																							0
+1 Spear (Any) + 1 Arrows -> Javelins	1			0					2	spea	aqv						jav,nor																																																																																							0
+MAGIC JEWELRY CRAFTING	0																																																																																																							0
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet	1			0					7	amu,mag	gpv	gpy	gpb	gpg	gpr	gpw	amu,mag,pre=331	50																																																																																						0
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring	1			0					3	rin,mag	gpr	opm					rin,mag,pre=372	30																																																																																						0
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring	1			0					3	rin,mag	gpb	wms					rin,mag,pre=353	30																																																																																						0
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring	1			0					3	rin,mag	gpy	rvs					rin,mag,pre=392	30																																																																																						0
+1 Magic Ring + 1 Perfect Emerald + 1 Antidote Potion -> Jade Ring	1			0					3	rin,mag	gpg	yps					rin,mag,pre=412	30																																																																																						0
+1 Magic Shield + 1 Spiked Club + 2 Perfect Skulls -> Magic Shield of Spikes	1			0					4	shld,mag	skz,qty=2	spc					usetype,mag,suf=162	30		60																																																																																				0
+4 Healing Potions (Any) + 1 Perfect Ruby + 1 Magic Sword -> Sword of the Leech	1			0					6	swor,mag	gpr	hpot,qty=4					usetype,mag,suf=352	30		60																																																																																				0
+1 Perfect Diamond + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1			0					4	kri	gpw	staf	belt				pole,mag,pre=191	50		60																																																																																				0
+REROLL MAGIC	0																																																																																																							0
+3 Magic Rings -> Magic Amulet	1			0					3	rin,mag,qty=3							amu,mag		75																																																																																					0
+3 Magic Amulets -> Magic Ring	1			0					3	amu,mag,qty=3							rin,mag		75																																																																																					0
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1			100					4	any,mag	gem4,qty=3						usetype,mag			100																																																																																				0
+RANDOM AFFIX RARE CRAFTS	0																																																																																																							0
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1			0					7	any,rar	skz,qty=6						usetype,rar		40	40																																																																																				0
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1			0					3	any,rar	skz	The Stone of Jordan					usetype,rar		66	66																																																																																				0
+REPAIR GEAR	0																																																																																																							0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1			100					2	weap,noe	r09						useitem,rep,qty=255																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1			100					2	armo,noe	r08						useitem,rep,qty=255																																																																																							0
+REPAIR AND RECHARGE	0																																																																																																							0
+1 Ort Rune + 1 Perfect Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1			100					3	weap,noe	r09	gem4					useitem,rep,rch,qty=255																																																																																							0
+1 Ral Rune + 1 Perfect Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1			100					3	armo,noe	r08	gem4					useitem,rep,rch,qty=255																																																																																							0
+NORMAL ITEM SOCKETING	0																																																																																																							0
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1			100					4	tors,nor,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1			100					4	weap,nor,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1			100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1			100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
+MAGIC ITEM SOCKETING	0																																																																																																							0
+3 Perfect Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	weap,mag	gem4,qty=3						usetype,mag	25		50	sock			2	2																																																																															0
+3 Perfect Gems + 1 Socketed Weapon ->  Socketed Magic Weapon	1			0					4	weap,sock	gem4,qty=3						usetype,mag	30		60	sock			2	2																																																																															0
+3 Perfect Gems + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	weap,mag	gem4,qty=3						usetype,mag	30		60	sock			2	2																																																																															0
+RARE ITEM SOCKETING	0																																																																																																							0
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item	1			0					5	any,rar,nos	skz,qty=3	The Stone of Jordan					useitem,sock=1																																																																																							0
+REMOVE SOCKETS	0																																																																																																							0
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1			100					3	any,sock	r15	tsc					useitem,uns																																																																																							0
+1 Zod Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item (Keeps Socketables)	1			100					3	any,sock	r33	tsc					useitem,rem																																																																																							0
+NORMAL ITEM LOWQ -> NORM	0																																																																																																							0
+1 Eld Rune + 1 Perfect Gem (Any) + 1 Low Quality Weapon -> Normal Weapon	1			100					3	weap,low	r02	gem4					usetype,nor																																																																																							0
+1 El Rune + 1 Perfect Gem (Any) + 1 Low Quality Armor -> Normal Armor	1			100					3	armo,low	r01	gem4					usetype,nor																																																																																							0
+UNIQUE ITEM UPTIER	0																																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon	1			100					4	weap,bas,uni	r08	r12	gpg				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor	1			100					4	armo,bas,uni	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1			100					4	weap,exc,uni	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor	1			100					4	armo,exc,uni	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
+RARE ITEM UPTIER	0																																																																																																							0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon	1			100					4	weap,bas,rar	r09	r11	gpb				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	1			100					4	armo,bas,rar	r08	r10	gpv				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	1			100					4	weap,exc,rar	r19	r22	gpb				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	1			100					4	armo,exc,rar	r18	r21	gpv				useitem,mod,eli				levelreq			7	7																																																																															0
+CRAFTED ITEM UPTIER	0																																																																																																							0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Basic Crafted Weapon -> Exceptional Crafted Weapon	1			100					4	weap,bas,crf	r09,qty=1	r11,qty=1	gpb,qty=1				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Basic Crafted Armor -> Exceptional Crafted Armor	1			100					4	armo,bas,crf	r08,qty=1	r10,qty=1	gpv,qty=1				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Crafted Weapon -> Elite Crafted Weapon	1			100					4	weap,exc,crf	r19,qty=1	r22,qty=1	gpb,qty=1				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Excetptional Crafted Armor -> Elite Crafted Armor	1			100					4	armo,exc,crf	r18,qty=1	r21,qty=1	gpv,qty=1				useitem,mod,eli				levelreq			7	7																																																																															0
+SET ITEM UPTIER	0																																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon	1			100					4	weap,bas,set	r08	r12	gpg				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1			100					4	armo,bas,set	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1			100					4	weap,exc,set	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1			100					4	armo,exc,set	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
+GEM UPTIER	0																																																																																																							0
+RUNE UPTIER	0																																																																																																							0
+3 El Runes -> Eld Rune	1			100					3	r01,qty=3							r02																																																																																							0
+3 Eld Runes -> Tir Rune	1			100					3	r02,qty=3							r03																																																																																							0
+3 Tir Runes -> Nef Rune	1			100					3	r03,qty=3							r04																																																																																							0
+3 Nef Runes -> Eth Rune	1			100					3	r04,qty=3							r05																																																																																							0
+3 Eth Runes -> Ith Rune	1			100					3	r05,qty=3							r06																																																																																							0
+3 Ith Runes -> Tal Rune	1			100					3	r06,qty=3							r07																																																																																							0
+3 Tal Runes -> Ral Rune	1			100					3	r07,qty=3							r08																																																																																							0
+3 Ral Runes -> Ort Rune	1			100					3	r08,qty=3							r09																																																																																							0
+3 Ort Runes -> Thul Rune	1			100					3	r09,qty=3							r10																																																																																							0
+3 Thul Runes -> Amn Rune	1			100					3	r10,qty=3							r11																																																																																							0
+3 Amn Runes -> Sol Rune	1			100					3	r11,qty=3							r12																																																																																							0
+3 Sol Runes -> Shael Rune	1			100					3	r12,qty=3							r13																																																																																							0
+3 Shael Runes -> Dol Rune	1			100					3	r13,qty=3							r14																																																																																							0
+3 Dol Runes -> Hel Rune	1			100					3	r14,qty=3							r15																																																																																							0
+3 Hel Runes -> Io Rune	1			100					3	r15,qty=3							r16																																																																																							0
+3 Io Runes -> Lum Rune	1			100					3	r16,qty=3							r17																																																																																							0
+3 Lum Runes -> Ko Rune	1			100					3	r17,qty=3							r18																																																																																							0
+3 Ko Runes -> Fal Rune	1			100					3	r18,qty=3							r19																																																																																							0
+3 Fal Runes-> Lem Rune	1			100					3	r19,qty=3							r20																																																																																							0
+3 Lem Runes -> Pul Rune	1			100					3	r20,qty=3							r21																																																																																							0
+2 Pul Runes -> Um Rune	1			100					2	r21,qty=2							r22																																																																																							0
+2 Um Runes -> Mal Rune	1			100					2	r22,qty=2							r23																																																																																							0
+2 Mal Runes -> Ist Rune	1			100					2	r23,qty=2							r24																																																																																							0
+2 Ist Runes -> Gul Rune	1			100					2	r24,qty=2							r25																																																																																							0
+2 Gul Runes -> Vex Rune	1			100					2	r25,qty=2							r26																																																																																							0
+2 Vex Runes -> Ohm Rune	1			100					2	r26,qty=2							r27																																																																																							0
+2 Ohm Runes -> Lo Rune	1			100					2	r27,qty=2							r28																																																																																							0
+2 Lo Runes -> Sur Rune	1			100					2	r28,qty=2							r29																																																																																							0
+2 Sur Runes -> Ber Rune	1			100					2	r29,qty=2							r30																																																																																							0
+2 Ber Runes -> Jah Rune	1			100					2	r30,qty=2							r31																																																																																							0
+2 Jah Runes -> Cham Rune	1			100					2	r31,qty=2							r32																																																																																							0
+2 Cham Runes -> Zod Rune	1			100					2	r32,qty=2							r33																																																																																							0
+RUNE DOWNGRADE	0																																																																																																							0
+1 Eld Rune + 1 Key-> El Rune	1			100					2	r02	key						useitem																													r01																													key																													0
+1 Tir Rune + 1 Key-> Eld Rune	1			100					2	r03	key						useitem																													r02																													key																													0
+1 Nef Rune + 1 Key-> Tir Rune	1			100					2	r04	key						useitem																													r03																													key																													0
+1 Eth Rune + 1 Key-> Nef Rune	1			100					2	r05	key						useitem																													r04																													key																													0
+1 Ith Rune + 1 Key-> Eth Rune	1			100					2	r06	key						useitem																													r05																													key																													0
+1 Tal Rune + 1 Key-> Ith Rune	1			100					2	r07	key						useitem																													r06																													key																													0
+1 Ral Rune + 1 Key-> Tal Rune	1			100					2	r08	key						useitem																													r07																													key																													0
+1 Ort Rune + 1 Key-> Ral Rune	1			100					2	r09	key						useitem																													r08																													key																													0
+1 Thul Rune + 1 Key -> Ort Rune	1			100					2	r10	key						useitem																													r09																													key																													0
+1 Amn Rune + 1 Key -> Thul Rune	1			100					2	r11	key						useitem																													r10																													key																													0
+1 Sol Rune + 1 Key -> Amn Rune	1			100					2	r12	key						useitem																													r11																													key																													0
+1 Shael Rune + 1 Key -> Sol Rune	1			100					2	r13	key						useitem																													r12																													key																													0
+1 Dol Rune + 1 Key -> Shael Rune	1			100					2	r14	key						useitem																													r13																													key																													0
+1 Hel Rune + 1 Key -> Dol Rune	1			100					2	r15	key						useitem																													r14																													key																													0
+1 Io Rune + 1 Key -> Hel Rune	1			100					2	r16	key						useitem																													r15																													key																													0
+1 Lum Rune + 1 Key -> Io Rune	1			100					2	r17	key						useitem																													r16																													key																													0
+1 Ko Rune + 1 Key -> Lum Rune	1			100					2	r18	key						useitem																													r17																													key																													0
+1 Fal Rune + 1 Key -> Ko Rune	1			100					2	r19	key						useitem																													r18																													key																													0
+1 Lem Rune + 1 Key -> Fal Rune	1			100					2	r20	key						useitem																													r19																													key																													0
+1 Pul Rune + 1 Key -> Lem Rune	1			100					2	r21	key						useitem																													r20																													key																													0
+1 Um Rune + 1 Key -> Pul Rune	1			100					2	r22	key						useitem																													r21																													key																													0
+1 Mal Rune + 1 Key -> Um Rune	1			100					2	r23	key						useitem																													r22																													key																													0
+1 Ist Rune + 1 Key -> Mal Rune	1			100					2	r24	key						useitem																													r23																													key																													0
+1 Gul Rune + 1 Key -> Ist Rune	1			100					2	r25	key						useitem																													r24																													key																													0
+1 Vex Rune + 1 Key -> Gul Rune	1			100					2	r26	key						useitem																													r25																													key																													0
+1 Ohm Rune + 1 Key -> Vex Rune	1			100					2	r27	key						useitem																													r26																													key																													0
+1 Lo Rune + 1 Key -> Ohm Rune	1			100					2	r28	key						useitem																													r27																													key																													0
+1 Sur Rune + 1 Key -> Lo Rune	1			100					2	r29	key						useitem																													r28																													key																													0
+1 Ber Rune + 1 Key -> Sur Rune	1			100					2	r30	key						useitem																													r29																													key																													0
+1 Jah Rune + 1 Key -> Ber Rune	1			100					2	r31	key						useitem																													r30																													key																													0
+1 Cham Rune + 1 Key -> Jah Rune	1			100					2	r32	key						useitem																													r31																													key																													0
+1 Zod  Rune + 1 Key -> Cham Rune	1			100					2	r33	key						useitem																													r32																													key																													0
+GEMS STACKING	0																																																																																																							0
+Perfect Amethyst Unstack	1			0	18	70	1		1	8pa							gpv																																																																																							0
+Perfect Amethyst Stack	1			0					1	gpv							8pa																																																																																							0
+Perfect Diamond Unstack	1			0	18	70	1		1	8pd							gpw																																																																																							0
+Perfect Diamond Stack	1			0					1	gpw							8pd																																																																																							0
+Perfect Emerald Unstack	1			0	18	70	1		1	8pe							gpg																																																																																							0
+Perfect Emerald Stack	1			0					1	gpg							8pe																																																																																							0
+Perfect Ruby Unstack	1			0	18	70	1		1	8pr							gpr																																																																																							0
+Perfect Ruby Stack	1			0					1	gpr							8pr																																																																																							0
+Perfect Sapphire Unstack	1			0	18	70	1		1	8ps							gpb																																																																																							0
+Perfect Sapphire Stack	1			0					1	gpb							8ps																																																																																							0
+Perfect Skull Unstack	1			0	18	70	1		1	8pk							skz																																																																																							0
+Perfect Skull Stack	1			0					1	skz							8pk																																																																																							0
+Perfect Topaz Unstack	1			0	18	70	1		1	8pt							gpy																																																																																							0
+Perfect Topaz Stack	1			0					1	gpy							8pt																																																																																							0
+RUNES STACKING	0																																																																																																							0
+El Rune Unstack	1			100	18	70	1		1	s01							r01																																																																																							0
+El Rune Stack	1			100					1	r01							s01																																																																																							0
+Eld Rune Unstack	1			100	18	70	1		1	s02							r02																																																																																							0
+Eld Rune Stack	1			100					1	r02							s02																																																																																							0
+Tir Rune Unstack	1			100	18	70	1		1	s03							r03																																																																																							0
+Tir Rune Stack	1			100					1	r03							s03																																																																																							0
+Nef Rune Unstack	1			100	18	70	1		1	s04							r04																																																																																							0
+Nef Rune Stack	1			100					1	r04							s04																																																																																							0
+Eth Rune Unstack	1			100	18	70	1		1	s05							r05																																																																																							0
+Eth Rune Stack	1			100					1	r05							s05																																																																																							0
+Ith Rune Unstack	1			100	18	70	1		1	s06							r06																																																																																							0
+Ith Rune Stack	1			100					1	r06							s06																																																																																							0
+Tal Rune Unstack	1			100	18	70	1		1	s07							r07																																																																																							0
+Tal Rune Stack	1			100					1	r07							s07																																																																																							0
+Ral Rune Unstack	1			100	18	70	1		1	s08							r08																																																																																							0
+Ral Rune Stack	1			100					1	r08							s08																																																																																							0
+Ort Rune Unstack	1			100	18	70	1		1	s09							r09																																																																																							0
+Ort Rune Stack	1			100					1	r09							s09																																																																																							0
+Thul Rune Unstack	1			100	18	70	1		1	s10							r10																																																																																							0
+Thul Rune Stack	1			100					1	r10							s10																																																																																							0
+Amn Rune Unstack	1			100	18	70	1		1	s11							r11																																																																																							0
+Amn Rune Stack	1			100					1	r11							s11																																																																																							0
+Sol Rune Unstack	1			100	18	70	1		1	s12							r12																																																																																							0
+Sol Rune Stack	1			100					1	r12							s12																																																																																							0
+Shael Rune Unstack	1			100	18	70	1		1	s13							r13																																																																																							0
+Shael Rune Stack	1			100					1	r13							s13																																																																																							0
+Dol Rune Unstack	1			100	18	70	1		1	s14							r14																																																																																							0
+Dol Rune Stack	1			100					1	r14							s14																																																																																							0
+Hel Rune Unstack	1			100	18	70	1		1	s15							r15																																																																																							0
+Hel Rune Stack	1			100					1	r15							s15																																																																																							0
+Io Rune Unstack	1			100	18	70	1		1	s16							r16																																																																																							0
+Io Rune Stack	1			100					1	r16							s16																																																																																							0
+Lum Rune Unstack	1			100	18	70	1		1	s17							r17																																																																																							0
+Lum Rune Stack	1			100					1	r17							s17																																																																																							0
+Ko Rune Unstack	1			100	18	70	1		1	s18							r18																																																																																							0
+Ko Rune Stack	1			100					1	r18							s18																																																																																							0
+Fal Rune Unstack	1			100	18	70	1		1	s19							r19																																																																																							0
+Fal Rune Stack	1			100					1	r19							s19																																																																																							0
+Lem Rune Unstack	1			100	18	70	1		1	s20							r20																																																																																							0
+Lem Rune Stack	1			100					1	r20							s20																																																																																							0
+Pul Rune Unstack	1			100	18	70	1		1	s21							r21																																																																																							0
+Pul Rune Stack	1			100					1	r21							s21																																																																																							0
+Um Rune Unstack	1			100	18	70	1		1	s22							r22																																																																																							0
+Um Rune Stack	1			100					1	r22							s22																																																																																							0
+Mal Rune Unstack	1			100	18	70	1		1	s23							r23																																																																																							0
+Mal Rune Stack	1			100					1	r23							s23																																																																																							0
+Ist Rune Unstack	1			100	18	70	1		1	s24							r24																																																																																							0
+Ist Rune Stack	1			100					1	r24							s24																																																																																							0
+Gul Rune Unstack	1			100	18	70	1		1	s25							r25																																																																																							0
+Gul Rune Stack	1			100					1	r25							s25																																																																																							0
+Vex Rune Unstack	1			100	18	70	1		1	s26							r26																																																																																							0
+Vex Rune Stack	1			100					1	r26							s26																																																																																							0
+Ohm Rune Unstack	1			100	18	70	1		1	s27							r27																																																																																							0
+Ohm Rune Stack	1			100					1	r27							s27																																																																																							0
+Lo Rune Unstack	1			100	18	70	1		1	s28							r28																																																																																							0
+Lo Rune Stack	1			100					1	r28							s28																																																																																							0
+Sur Rune Unstack	1			100	18	70	1		1	s29							r29																																																																																							0
+Sur Rune Stack	1			100					1	r29							s29																																																																																							0
+Ber Rune Unstack	1			100	18	70	1		1	s30							r30																																																																																							0
+Ber Rune Stack	1			100					1	r30							s30																																																																																							0
+Jah Rune Unstack	1			100	18	70	1		1	s31							r31																																																																																							0
+Jah Rune Stack	1			100					1	r31							s31																																																																																							0
+Cham Rune Unstack	1			100	18	70	1		1	s32							r32																																																																																							0
+Cham Rune Stack	1			100					1	r32							s32																																																																																							0
+Zod Rune Unstack	1			100	18	70	1		1	s33							r33																																																																																							0
+Zod Rune Stack	1			100					1	r33							s33																																																																																							0
+ESSENCES STACKING	0																																																																																																							0
+Twisted Essence of Suffering Unstack	1			100	18	70	1		1	ses							tes																																																																																							0
+Twisted Essence of Suffering Stack	1			100					1	tes							ses																																																																																							0
+Charged Essence of Hatred Unstack	1			100	18	70	1		1	seh							ceh																																																																																							0
+Charged Essence of Hatred Stack	1			100					1	ceh							seh																																																																																							0
+Burning Essence of Terror Unstack	1			100	18	70	1		1	set							bet																																																																																							0
+Burning Essence of Terror Stack	1			100					1	bet							set																																																																																							0
+Festering Essence of Destruction Unstack	1			100	18	70	1		1	sed							fed																																																																																							0
+Festering Essence of Destruction Stack	1			100					1	fed							sed																																																																																							0
+Token of Absolution Unstack	1			100	18	70	1		1	soa							toa																																																																																							0
+Token of Absolution Stack	1			100					1	toa							soa																																																																																							0
+UBERS ITEMS STACKING	0																																																																																																							0
+Key of Terror Unstack	1			100	18	70	1		1	p1s							pk1																																																																																							0
+Key of Terror Stack	1			100					1	pk1							p1s																																																																																							0
+Key of Hatred Unstack	1			100	18	70	1		1	p2s							pk2																																																																																							0
+Key of Hatred Stack	1			100					1	pk2							p2s																																																																																							0
+Key of Destruction Unstack	1			100	18	70	1		1	p3s							pk3																																																																																							0
+Key of Destruction Stack	1			100					1	pk3							p3s																																																																																							0
+Diablo's Horn Unstack	1			100	18	70	1		1	shn							dhn																																																																																							0
+Diablo's Horn Stack	1			100					1	dhn							shn																																																																																							0
+Baal's Eye Unstack	1			100	18	70	1		1	sey							bey																																																																																							0
+Baal's Eye Stack	1			100					1	bey							sey																																																																																							0
+Mephisto's Brain Unstack	1			100	18	70	1		1	brs							mbr																																																																																							0
+Mephisto's Brain Stack	1			100					1	mbr							brs																																																																																							0
+CRAFT ITEMS STACKING	0																																																																																																							0
+Orb of Eternity Unstack	1			100	18	70	1		1	8rb							erb																																																																																							0
+Orb of Eternity Stack	1			100					1	erb							8rb																																																																																							0
+Larzuk's Gimlet Unstack	1			100	18	70	1		1	8zg							lzg																																																																																							0
+Larzuk's Gimlet Stack	1			100					1	lzg							8zg																																																																																							0
+Jewel Fragment Unstack	1			100	18	70	1		1	8fg							jfg																																																																																							0
+Jewel Fragment Stack	1			100					1	jfg							8fg																																																																																							0
+Charm Core Unstack	1			100	18	70	1		1	8re							cre																																																																																							0
+Charm Core Stack	1			100					1	cre							8re																																																																																							0
+JEWEL TO FRAGMENT	0																																																																																																							0
+Magic Jewel -> 1 Jewel Fragment	1			100					1	jew,mag							8fg,qty=1																																																																																							0
+Rare Jewel -> 2 Jewel Fragment	1			100					1	jew,rar							8fg,qty=2																																																																																							0
+Unique Jewel -> 3 Jewel Fragment	1			100					1	jew,uni							8fg,qty=3																																																																																							0
+QUANTITY MASTER	0																																																																																																							0
+Stack of 2 (Any) -> Stack-1 + Target Output	1			0	18	70	2		1	misc							usetype,qty=1																													usetype,qty=1																																																										0
+Stack of 3 (Any) -> Stack-1 + Target Output	1			0	18	70	3		1	misc							usetype,qty=2																													usetype,qty=1																																																										0
+Stack of 4 (Any) -> Stack-1 + Target Output	1			0	18	70	4		1	misc							usetype,qty=3																													usetype,qty=1																																																										0
+Stack of 5 (Any) -> Stack-1 + Target Output	1			0	18	70	5		1	misc							usetype,qty=4																													usetype,qty=1																																																										0
+Stack of 6 (Any) -> Stack-1 + Target Output	1			0	18	70	6		1	misc							usetype,qty=5																													usetype,qty=1																																																										0
+Stack of 7 (Any) -> Stack-1 + Target Output	1			0	18	70	7		1	misc							usetype,qty=6																													usetype,qty=1																																																										0
+Stack of 8 (Any) -> Stack-1 + Target Output	1			0	18	70	8		1	misc							usetype,qty=7																													usetype,qty=1																																																										0
+Stack of 9 (Any) -> Stack-1 + Target Output	1			0	18	70	9		1	misc							usetype,qty=8																													usetype,qty=1																																																										0
+Stack of 10 (Any) -> Stack-1 + Target Output	1			0	18	70	10		1	misc							usetype,qty=9																													usetype,qty=1																																																										0
+Stack of 11 (Any) -> Stack-1 + Target Output	1			0	18	70	11		1	misc							usetype,qty=10																													usetype,qty=1																																																										0
+Stack of 12 (Any) -> Stack-1 + Target Output	1			0	18	70	12		1	misc							usetype,qty=11																													usetype,qty=1																																																										0
+Stack of 13 (Any) -> Stack-1 + Target Output	1			0	18	70	13		1	misc							usetype,qty=12																													usetype,qty=1																																																										0
+Stack of 14 (Any) -> Stack-1 + Target Output	1			0	18	70	14		1	misc							usetype,qty=13																													usetype,qty=1																																																										0
+Stack of 15 (Any) -> Stack-1 + Target Output	1			0	18	70	15		1	misc							usetype,qty=14																													usetype,qty=1																																																										0
+Stack of 16 (Any) -> Stack-1 + Target Output	1			0	18	70	16		1	misc							usetype,qty=15																													usetype,qty=1																																																										0
+Stack of 17 (Any) -> Stack-1 + Target Output	1			0	18	70	17		1	misc							usetype,qty=16																													usetype,qty=1																																																										0
+Stack of 18 (Any) -> Stack-1 + Target Output	1			0	18	70	18		1	misc							usetype,qty=17																													usetype,qty=1																																																										0
+Stack of 19 (Any) -> Stack-1 + Target Output	1			0	18	70	19		1	misc							usetype,qty=18																													usetype,qty=1																																																										0
+Stack of 20 (Any) -> Stack-1 + Target Output	1			0	18	70	20		1	misc							usetype,qty=19																													usetype,qty=1																																																										0
+Stack of 21 (Any) -> Stack-1 + Target Output	1			0	18	70	21		1	misc							usetype,qty=20																													usetype,qty=1																																																										0
+Stack of 22 (Any) -> Stack-1 + Target Output	1			0	18	70	22		1	misc							usetype,qty=21																													usetype,qty=1																																																										0
+Stack of 23 (Any) -> Stack-1 + Target Output	1			0	18	70	23		1	misc							usetype,qty=22																													usetype,qty=1																																																										0
+Stack of 24 (Any) -> Stack-1 + Target Output	1			0	18	70	24		1	misc							usetype,qty=23																													usetype,qty=1																																																										0
+Stack of 25 (Any) -> Stack-1 + Target Output	1			0	18	70	25		1	misc							usetype,qty=24																													usetype,qty=1																																																										0
+Stack of 26 (Any) -> Stack-1 + Target Output	1			0	18	70	26		1	misc							usetype,qty=25																													usetype,qty=1																																																										0
+Stack of 27 (Any) -> Stack-1 + Target Output	1			0	18	70	27		1	misc							usetype,qty=26																													usetype,qty=1																																																										0
+Stack of 28 (Any) -> Stack-1 + Target Output	1			0	18	70	28		1	misc							usetype,qty=27																													usetype,qty=1																																																										0
+Stack of 29 (Any) -> Stack-1 + Target Output	1			0	18	70	29		1	misc							usetype,qty=28																													usetype,qty=1																																																										0
+Stack of 30 (Any) -> Stack-1 + Target Output	1			0	18	70	30		1	misc							usetype,qty=29																													usetype,qty=1																																																										0
+Stack of 31 (Any) -> Stack-1 + Target Output	1			0	18	70	31		1	misc							usetype,qty=30																													usetype,qty=1																																																										0
+Stack of 32 (Any) -> Stack-1 + Target Output	1			0	18	70	32		1	misc							usetype,qty=31																													usetype,qty=1																																																										0
+Stack of 33 (Any) -> Stack-1 + Target Output	1			0	18	70	33		1	misc							usetype,qty=32																													usetype,qty=1																																																										0
+Stack of 34 (Any) -> Stack-1 + Target Output	1			0	18	70	34		1	misc							usetype,qty=33																													usetype,qty=1																																																										0
+Stack of 35 (Any) -> Stack-1 + Target Output	1			0	18	70	35		1	misc							usetype,qty=34																													usetype,qty=1																																																										0
+Stack of 36 (Any) -> Stack-1 + Target Output	1			0	18	70	36		1	misc							usetype,qty=35																													usetype,qty=1																																																										0
+Stack of 37 (Any) -> Stack-1 + Target Output	1			0	18	70	37		1	misc							usetype,qty=36																													usetype,qty=1																																																										0
+Stack of 38 (Any) -> Stack-1 + Target Output	1			0	18	70	38		1	misc							usetype,qty=37																													usetype,qty=1																																																										0
+Stack of 39 (Any) -> Stack-1 + Target Output	1			0	18	70	39		1	misc							usetype,qty=38																													usetype,qty=1																																																										0
+Stack of 40 (Any) -> Stack-1 + Target Output	1			0	18	70	40		1	misc							usetype,qty=39																													usetype,qty=1																																																										0
+Stack of 41 (Any) -> Stack-1 + Target Output	1			0	18	70	41		1	misc							usetype,qty=40																													usetype,qty=1																																																										0
+Stack of 42 (Any) -> Stack-1 + Target Output	1			0	18	70	42		1	misc							usetype,qty=41																													usetype,qty=1																																																										0
+Stack of 43 (Any) -> Stack-1 + Target Output	1			0	18	70	43		1	misc							usetype,qty=42																													usetype,qty=1																																																										0
+Stack of 44 (Any) -> Stack-1 + Target Output	1			0	18	70	44		1	misc							usetype,qty=43																													usetype,qty=1																																																										0
+Stack of 45 (Any) -> Stack-1 + Target Output	1			0	18	70	45		1	misc							usetype,qty=44																													usetype,qty=1																																																										0
+Stack of 46 (Any) -> Stack-1 + Target Output	1			0	18	70	46		1	misc							usetype,qty=45																													usetype,qty=1																																																										0
+Stack of 47 (Any) -> Stack-1 + Target Output	1			0	18	70	47		1	misc							usetype,qty=46																													usetype,qty=1																																																										0
+Stack of 48 (Any) -> Stack-1 + Target Output	1			0	18	70	48		1	misc							usetype,qty=47																													usetype,qty=1																																																										0
+Stack of 49 (Any) -> Stack-1 + Target Output	1			0	18	70	49		1	misc							usetype,qty=48																													usetype,qty=1																																																										0
+Stack of 50 (Any) -> Stack-1 + Target Output	1			0	18	70	50		1	misc							usetype,qty=49																													usetype,qty=1																																																										0
+EXTRACTION RECIPES	0																																																																																																							0
+Normal Set Item + Orb of Eternity -> Extract Compound Essence	1			100					2	any,set,bas	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Exceptional Set Item + Orb of Eternity -> Extract Compound Essence	1			100					2	any,set,exc	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Elite Set Item + Orb of Eternity -> Extract Compound Essence	1			100					2	any,set,eli	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Normal Unique + Orb of Eternity -> Extract Normal Essence	1			100					2	any,uni,bas	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Exceptional Unique + Orb of Eternity -> Extract Exceptional Essence	1			100					2	any,uni,exc	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Elite Unique + Orb of Eternity -> Extract Elite Essence	1			100					2	any,uni,eli	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Set ring + Orb of Eternity -> Extract Compound Essence	1			100					2	rin,set	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Set amu + Orb of Eternity -> Extract Compound Essence	1			100					2	amu,set	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Unique ring + Orb of Eternity -> Extract unique Essence	1			100					2	rin,uni	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+Unique amu + Orb of Eternity -> Extract unique Essence	1			100					2	amu,uni	erb,qty=1						erb,qty=1	50	100																											8rb,qty=1	50	100																																																								0
+BUILD RECIPES	0																																																																																																							0
+Magic Weapon + 1 Jewel Fragment + 1 Orb of Eternity -> Normal Set Weapon	1			100					13	weap,mag,bas	jfg	erb	gpg,qty=1				usetype,set	50	100																																																																																					0
+Magic Armor + 1 Jewel Fragment + 1 Orb of Eternity -> Normal Set Armor	1			100					13	armo,mag,bas	jfg	erb	gpg,qty=1				usetype,set	50	100																																																																																					0
+CRAFTING RECIPES	0																																																																																																							0
+HITPOWER	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm	1			100					4	helm,mag,noe	jfg	r06,qty=1	gpv,qty=1				usetype,crf		50	50	slow			5	10	balance1			10	20	att			100	200																																																																					0
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm	1			100					4	helm,mag,eth	jfg	r06,qty=1	gpv,qty=1				usetype,crf		50	50	slow			5	10	balance1			10	20	att			100	200	ethereal	100		1	1																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm	1			100					4	circ,mag,noe	jfg	r06,qty=1	gpv,qty=1				usetype,crf		50	50	slow			5	10	balance1			10	20	att			100	200																																																																					0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm	1			100					4	circ,mag,eth	jfg	r06,qty=1	gpv,qty=1				usetype,crf		50	50	slow			5	10	balance1			10	20	att			100	200	ethereal	100		1	1																																																																0
+1 Magic Boots + 1 Jewel Fragment + 1 Ral Rune + Perfect Sapphire -> Hitpower Boots	1			100					4	boot,mag,noe	jfg	r08,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	balance1			10	10	move1			10	10																																																																					0
+1 Magic Boots + 1 Jewel Fragment + 1 Ral Rune + Perfect Sapphire -> Hitpower Boots	1			100					4	boot,mag,eth	jfg	r08,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	balance1			10	10	move1			10	10	ethereal	100		1	1																																																																0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Sapphire -> Hitpower Gloves	1			100					4	glov,mag,noe	jfg	r09,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	reduce-ac			10	20	att			50	100																																																																					0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Sapphire -> Hitpower Gloves	1			100					4	glov,mag,eth	jfg	r09,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	reduce-ac			10	20	att			50	100	ethereal	100		1	1																																																																0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Sapphire -> Hitpower Belt	1			100					4	belt,mag,noe	jfg	r07,qty=1	gpv,qty=1				usetype,crf		50	50	thorns			30	50	balance1			10	20	dmg-to-mana			5	10																																																																					0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Sapphire -> Hitpower Belt	1			100					4	belt,mag,eth	jfg	r07,qty=1	gpv,qty=1				usetype,crf		50	50	thorns			30	50	balance1			10	20	dmg-to-mana			5	10	ethereal	100		1	1																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Sapphire -> Hitpower Shield	1			100					4	shld,mag,noe	jfg	r05,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	block2			20	30	block			10	20																																																																					0
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Sapphire -> Hitpower Shield	1			100					4	shld,mag,eth	jfg	r05,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	block2			20	30	block			10	20	ethereal	100		1	1																																																																0
+1 Magic Torso + 1 Jewel Fragment + 1 Nef Rune + Perfect Sapphire -> Hitpower Torso	1			100					4	tors,mag,noe	jfg	r04,qty=1	gpv,qty=1				usetype,crf		50	50	thorns			30	50	ac%			25	50	balance1			20	40	sock		1	2																																																																	0
+1 Magic Torso + 1 Jewel Fragment + 1 Nef Rune + Perfect Sapphire -> Hitpower Torso	1			100					4	tors,mag,eth	jfg	r04,qty=1	gpv,qty=1				usetype,crf		50	50	thorns			30	50	ac%			25	50	balance1			20	40	ethereal	100		1	1	sock		1	2																																																												0
+1 Magic Amulet + 1 Jewel Fragment + 1 Thul Rune + Perfect Sapphire -> Hitpower Amulet	1			100					4	amul,mag	jfg	r08,qty=1	gpv,qty=1				usetype,crf		50	50	gethit-skill		44	5	4	att			150	250	balance1			10	20																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Sapphire -> Hitpower Ring	1			100					4	ring,mag	jfg	r11,qty=1	gpv,qty=1				usetype,crf		50	50	dmg-min			1	5	dmg-max			1	10	dex			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Sapphire -> Hitpower Weapon	1			100					4	miss,mag,noe	jfg	r07,qty=1	gpv,qty=1				usetype,crf		50	50	red-dmg			2	5	red-mag			2	5	dmg%			75	150	swing2			5	10	ethereal	100		1	1																																																											0
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Sapphire -> Hitpower Weapon	0																																																																																																							0
+BLOOD	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm	1			100					4	helm,mag,noe	jfg	r01,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	str			5	10	crush			15	20																																																																					0
+1 Magic Helm + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm	1			100					4	helm,mag,eth	jfg	r01,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	str			5	10	crush			15	20	ethereal	100		1	1																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm	1			100					4	circ,mag,noe	jfg	r01,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	str			5	10	crush			15	20																																																																					0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm	1			100					4	circ,mag,eth	jfg	r01,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	str			5	10	crush			15	20	ethereal	100		1	1																																																																0
+1 Magic Boots + 1 Jewel Fragment + 1 Eth Rune + Perfect Ruby -> Blood Boots	1			100					4	boot,mag,noe	jfg	r02,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	hp			10	20	regen			15	30																																																																					0
+1 Magic Boots + 1 Jewel Fragment + 1 Eth Rune + Perfect Ruby -> Blood Boots	1			100					4	boot,mag,eth	jfg	r02,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	hp			10	20	regen			15	30	ethereal	100		1	1																																																																0
+1 Magic Gloves + 1 Jewel Fragment + 1 Nef Rune + Perfect Ruby -> Blood Gloves	1			100					4	glov,mag,noe	jfg	r09,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	hp			10	20	swing1			5	10																																																																					0
+1 Magic Gloves + 1 Jewel Fragment + 1 Nef Rune + Perfect Ruby -> Blood Gloves	1			100					4	glov,mag,eth	jfg	r09,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			2	4	hp			10	20	swing1			5	10	ethereal	100		1	1																																																																0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Ruby -> Blood Belt	1			100					4	belt,mag,noe	jfg	r02,qty=1	gpr,qty=1				usetype,crf		50	50	heal-kill			2	4	hp			10	20	openwounds			10	20																																																																					0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Ruby -> Blood Belt	1			100					4	belt,mag,eth	jfg	r02,qty=1	gpr,qty=1				usetype,crf		50	50	heal-kill			2	4	hp			10	20	openwounds			10	20	ethereal	100		1	1																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Ruby -> Blood Shield	1			100					4	shld,mag,noe	jfg	r03,qty=1	gpr,qty=1				usetype,crf		50	50	balance1			10	20	hp			10	20	block			10	20																																																																					0
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Ruby -> Blood Shield	1			100					4	shld,mag,eth	jfg	r03,qty=1	gpr,qty=1				usetype,crf		50	50	balance1			10	20	hp			10	20	block			10	20	ethereal	100		1	1																																																																0
+1 Magic Torso + 1 Jewel Fragment + 1 Thul Rune + Perfect Ruby -> Blood Torso	1			100					4	tors,mag,noe	jfg	r04,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			3	6	hp			20	40	heal-kill			3	6																																																																					0
+1 Magic Torso + 1 Jewel Fragment + 1 Thul Rune + Perfect Ruby -> Blood Torso	1			100					4	tors,mag,eth	jfg	r04,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			3	6	hp			20	40	heal-kill			3	6	ethereal	100		1	1																																																																0
+1 Magic Amulet + 1 Jewel Fragment + 1 Amn Rune + Perfect Ruby -> Blood Amulet	1			100					4	amul,mag	jfg	r07,qty=1	gpr,qty=1				usetype,crf		50	50	heal-kill			3	6	hp			10	20	move2			15	20																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Sol Rune + Perfect Ruby -> Blood Ring	1			100					4	ring,mag	jfg	r08,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			1	3	hp			10	20	str			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Ort Rune + Perfect Ruby -> Blood Weapon	1			100					4	weap,mag,noe	jfg	r09,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			3	6	hp			10	20	dmg%			55	80																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Ort Rune + Perfect Ruby -> Blood Weapon	1			100					4	weap,mag,eth	jfg	r09,qty=1	gpr,qty=1				usetype,crf		50	50	lifesteal			3	6	hp			10	20	dmg%			55	80	ethereal	100		1	1																																																																0
+CASTER	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm	0			100					4	helm,mag,noe	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			5	10	regen-mana			2	6																																																																					0
+1 Magic Helm + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm	1			100					4	helm,mag,eth	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			5	10	regen-mana			2	6	ethereal	50		1	1																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm	0			100					4	circ,mag,noe	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			5	10	regen-mana			2	6																																																																					0
+1 Magic Circlet + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm	1			100					4	circ,mag,eth	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			5	10	regen-mana			2	6	ethereal	50		1	1																																																																0
+1 Magic Boots + 1 Jewel Fragment + 1 Thul Rune + Perfect Amethyst -> Caster Boots	1			100					4	boot,mag,noe	jfg	r10,qty=1	gpb,qty=1				usetype,crf		50	50	mana-kill			1	3	mana			10	20	mana%			5	10																																																																					0
+1 Magic Boots + 1 Jewel Fragment + 1 Thul Rune + Perfect Amethyst -> Caster Boots	1			100					4	boot,mag,eth	jfg	r10,qty=1	gpb,qty=1				usetype,crf		50	50	mana-kill			1	3	mana			10	20	mana%			5	10	ethereal	100		1	1																																																																0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Amethyst -> Caster Gloves	1			100					4	glov,mag,noe	jfg	r05,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Amethyst -> Caster Gloves	1			100					4	glov,mag,eth	jfg	r05,qty=1	gpb,qty=1				usetype,crf		50	50	cast2			5	10	mana			10	20	mana-kill			1	3	ethereal	100		1	1																																																																0
+1 Magic Belt + 1 Jewel Fragment + 1 Ith Rune + Perfect Amethyst -> Caster Belt	1			100					4	belt,mag,noe	jfg	r06,qty=1	gpb,qty=1				usetype,crf		50	50	regen-mana			4	10	mana			10	15	cast1			10	10																																																																					0
+1 Magic Belt + 1 Jewel Fragment + 1 Ith Rune + Perfect Amethyst -> Caster Belt	1			100					4	belt,mag,eth	jfg	r06,qty=1	gpb,qty=1				usetype,crf		50	50	regen-mana			4	10	mana			10	15	cast1			10	10	ethereal	100		1	1																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Amethyst -> Caster Shield	1			100					4	shld,mag,noe	jfg	r07,qty=1	gpb,qty=1				usetype,crf		50	50	cast1			5	10	mana			10	20	block			10	20						mana%			10	10																																																											0
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Amethyst -> Caster Shield	1			100					4	shld,mag,eth	jfg	r07,qty=1	gpb,qty=1				usetype,crf		50	50	cast1			5	10	mana			10	20	block			10	20	ethereal	100		1	1	mana%			10	10																																																											0
+1 Magic Torso + 1 Jewel Fragment + 1 Tal Rune + Perfect Amethyst -> Caster Torso	1			100					4	tors,mag,eth	jfg	r09,qty=1	gpb,qty=1				usetype,crf		50	50	cast1			5	10	mana			10	20	allskills			1	1																																																																					0
+1 Magic Torso + 1 Jewel Fragment + 1 Tal Rune + Perfect Amethyst -> Caster Torso	1			100					4	tors,mag,eth	jfg	r09,qty=1	gpb,qty=1				usetype,crf		50	50	cast1			5	10	mana			10	20	allskills			0	1	ethereal	50		1	1																																																																0
+1 Magic Amulet + 1 Jewel Fragment + 1 Ral Rune + Perfect Amethyst -> Caster Amulet	1			100					4	amul,mag	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	regen-mana			4	10	mana			10	25	cast1			5	10																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Amethyst -> Caster Ring	1			100					4	ring,mag	jfg	r02,qty=1	gpb,qty=1				usetype,crf		50	50	mana-kill			2	4	mana			20	40	str			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Amethyst -> Caster Weapon	1			100					4	weap,mag,noe	jfg	r08,qty=1	gpb,qty=1				usetype,crf		50	50	allskills			1	1	mana			10	20	cast1			10	20																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Amethyst -> Caster Weapon	1			100					4	weap,mag,eth	jfg	r08,qty=1	gpb,qty=1				usetype,crf		50	50	allskills			1	1	mana			10	20	cast1			10	20	ethereal	100		1	1																																																																0
+SAFETY	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm	1			100					4	helm,mag,noe	jfg	r01,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	res-ltng			10	20	ac%			20	60	res-ltng			5	10																																																																0
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm	1			100					4	helm,mag,eth	jfg	r01,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	res-ltng			10	20	ac%			20	60	ethereal	100		1	1	res-fire			5	10																																																											0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm	1			100					4	circ,mag,noe	jfg	r01,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	res-ltng			10	20	ac%			20	60	res-ltng			5	10																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm	1			100					4	circ,mag,eth	jfg	r01,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	res-ltng			10	20	ac%			20	60	ethereal	100		1	1	res-fire			5	10																																																											0
+1 Magic Boots + 1 Jewel Fragment + 1 Ort Rune + Perfect Emerald -> Safety Boots	1			100					4	boot,mag,noe	jfg	r03,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-fire			10	20						res-cold			5	10																																																											0
+1 Magic Boots + 1 Jewel Fragment + 1 Ort Rune + Perfect Emerald -> Safety Boots	1			100					4	boot,mag,eth	jfg	r03,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-fire			10	20	ethereal	100		1	1	res-pois			5	10																																																											0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ral Rune + Perfect Emerald -> Safety Gloves	1			100					4	glov,mag,noe	jfg	r02,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-cold			10	20						res-mag			5	10																																																											0
+1 Magic Gloves + 1 Jewel Fragment + 1 Ral Rune + Perfect Emerald -> Safety Gloves	1			100					4	glov,mag,eth	jfg	r02,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-cold			10	20	ethereal	100		1	1	half-freeze			1	1																																																											0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Emerald -> Safety Belt	1			100					4	belt,mag,noe	jfg	r04,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-pois			10	20						block			1	10																																																											0
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Emerald -> Safety Belt	1			100					4	belt,mag,eth	jfg	r04,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			4	8	red-mag			4	8	res-pois			10	20	ethereal	100		1	1	vit			1	5																																																											0
+1 Magic Shield + 1 Jewel Fragment + 1 Nef Rune + Perfect Emerald -> Safety Shield	1			100					4	shld,mag,noe	jfg	r06,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	ac%			20	60	red-mag			5	10	ac%			5	10																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Nef Rune + Perfect Emerald -> Safety Shield	1			100					4	shld,mag,eth	jfg	r06,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	10	ac%			20	60	red-mag			5	10	ethereal	100		1	1																																																																0
+1 Magic Torso + 1 Jewel Fragment + 1 Eth Rune + Perfect Emerald -> Safety Torso	1			100					4	tors,mag,noe	jfg	r05,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	15	half-freeze			1	1	ac%			20	60																																																																					0
+1 Magic Torso + 1 Jewel Fragment + 1 Eth Rune + Perfect Emerald -> Safety Torso	1			100					4	tors,mag,eth	jfg	r05,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg%			5	15	half-freeze			1	1	ac%			20	60	ethereal	100		1	1																																																																0
+1 Magic Amulet + 1 Jewel Fragment + 1 Thul Rune + Perfect Emerald -> Safety Amulet	1			100					4	amul,mag	jfg	r10,qty=1	gpg,qty=1				usetype,crf		50	50	res-all			1	5	red-mag			5	10	block			10	10																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Emerald -> Safety Ring	1			100					4	ring,mag	jfg	r11,qty=1	gpg,qty=1				usetype,crf		50	50	red-dmg			5	10	dex			5	10	vit			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Sol Rune + Perfect Emerald -> Safety Weapon	1			100					4	weap,mag,noe	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	knock			1	1	reduce-ac			10	20	dmg%			50	80																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Sol Rune + Perfect Emerald -> Safety Weapon	1			100					4	weap,mag,eth	jfg	r03,qty=1	gpb,qty=1				usetype,crf		50	50	knock			1	1	reduce-ac			10	20	dmg%			50	80	ethereal	100		1	1																																																																0
+UNEARTHLY	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm	1			100					4	helm,mag,noe	jfg	r11,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	deadly			10	20	regen			5	10																																																																					0
+1 Magic Helm + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm	1			100					4	helm,mag,eth	jfg	r11,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	deadly			10	20	regen			5	10	ethereal	100		1	1																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm	1			100					4	circ,mag,noe	jfg	r11,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	deadly			10	20	regen			5	10																																																																					0
+1 Magic Circlet + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm	1			100					4	circ,mag,eth	jfg	r11,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	deadly			10	20	regen			5	10	ethereal	100		1	1																																																																0
+1 Magic Boots + 1 Jewel Fragment + 1 El Rune + Perfect Skull -> Unearthly Boots	1			100					4	boot,mag,noe	jfg	r01,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			2	4	res-pois-len			10	20	pierce			10	15																																																																					0
+1 Magic Boots + 1 Jewel Fragment + 1 El Rune + Perfect Skull -> Unearthly Boots	1			100					4	boot,mag,eth	jfg	r01,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			2	4	res-pois-len			10	20	pierce			10	15	ethereal	100		1	1																																																																0
+1 Magic Gloves + 1 Jewel Fragment + 1 Io Rune + Perfect Skull -> Unearthly Gloves	1			100					4	glov,mag,noe	jfg	r10,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			2	4	deadly			5	10	regen			5	10																																																																					0
+1 Magic Gloves + 1 Jewel Fragment + 1 Io Rune + Perfect Skull -> Unearthly Gloves	1			100					4	glov,mag,eth	jfg	r10,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			2	4	deadly			5	10	regen			5	10	ethereal	100		1	1																																																																0
+1 Magic Belt + 1 Jewel Fragment + 1 Eld Rune + Perfect Skull -> Unearthly Belt	1			100					4	belt,mag,noe	jfg	r02,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	dmg-to-mana			10	20	pierce			5	10																																																																					0
+1 Magic Belt + 1 Jewel Fragment + 1 Eld Rune + Perfect Skull -> Unearthly Belt	1			100					4	belt,mag,eth	jfg	r02,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	dmg-to-mana			10	20	pierce			5	10	ethereal	100		1	1																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Skull -> Unearthly Shield	1			100					4	shld,mag,noe	jfg	r04,qty=1	skz,qty=1				usetype,crf		50	50	mana-kill			2	4	res-all			5	15	block			10	20																																																																					0
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Skull -> Unearthly Shield	1			100					4	shld,mag,eth	jfg	r04,qty=1	skz,qty=1				usetype,crf		50	50	mana-kill			2	4	res-all			5	15	block			10	20	ethereal	100		1	1																																																																0
+1 Magic Torso + 1 Jewel Fragment + 1 Tir Rune + Perfect Skull -> Unearthly Torso	1			100					4	tors,mag,noe	jfg	r03,qty=1	skz,qty=1				usetype,crf		50	50	dmg-undead			50	75	ease			-20	-30	ac%			25	50																																																																					0
+1 Magic Torso + 1 Jewel Fragment + 1 Tir Rune + Perfect Skull -> Unearthly Torso	1			100					4	tors,mag,eth	jfg	r03,qty=1	skz,qty=1				usetype,crf		50	50	dmg-undead			50	75	ease			-20	-30	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Amulet + 1 Jewel Fragment + 1 Dol Rune + Perfect Skull -> Unearthly Amulet	1			100					4	amul,mag	jfg	r07,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	curse-res			5	10	regen			5	10																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Hel Rune + Perfect Skull  -> Unearthly Ring	1			100					4	ring,mag	jfg	r06,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			2	5	res-pois-len			10	20	regen			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Skull -> Unearthly Weapon	1			100					4	weap,mag,noe	jfg	r05,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	regen			5	10	dmg-undead			75	125	dmg-demon			75	125																																																																0
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Skull -> Unearthly Weapon	1			100					4	weap,mag,eth	jfg	r05,qty=1	skz,qty=1				usetype,crf		50	50	manasteal			3	6	regen			5	10	dmg-undead			75	125	dmg-demon			75	125	ethereal	100		1	1																																																											0
+BOUNTIFUL	0																																																																																																							0
+1 Magic Helm + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm	1			100					4	helm,mag,noe	jfg	r03,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Helm + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm	1			100					4	helm,mag,eth	jfg	r03,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Circlet + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm	1			100					4	circ,mag,noe	jfg	r03,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Circlet + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm	1			100					4	circ,mag,eth	jfg	r03,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Boots + 1 Jewel Fragment + 1 Io Rune + Perfect Topaz -> Bountiful Boots	1			100					4	boot,mag,noe	jfg	r08,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			15	25	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Boots + 1 Jewel Fragment + 1 Io Rune + Perfect Topaz -> Bountiful Boots	1			100					4	boot,mag,eth	jfg	r08,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			15	25	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Gloves + 1 Jewel Fragment + 1 Hel Rune + Perfect Topaz -> Bountiful Gloves	1			100					4	glov,mag,noe	jfg	r06,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			15	25	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Gloves + 1 Jewel Fragment + 1 Hel Rune + Perfect Topaz -> Bountiful Gloves	1			100					4	glov,mag,eth	jfg	r06,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			15	25	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Belt + 1 Jewel Fragment + 1 El Rune + Perfect Topaz -> Bountiful Belt	1			100					4	belt,mag,noe	jfg	r07,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Belt + 1 Jewel Fragment + 1 El Rune + Perfect Topaz -> Bountiful Belt	1			100					4	belt,mag,eth	jfg	r07,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Shield + 1 Jewel Fragment + 1 Dol Rune + Perfect Topaz  -> Bountiful Shield	1			100					4	shld,mag,noe	jfg	r02,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	block			10	20																																																																					0
+1 Magic Shield + 1 Jewel Fragment + 1 Dol Rune + Perfect Topaz -> Bountiful Shield	1			100					4	shld,mag,eth	jfg	r02,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	block			10	20	ethereal	100		1	1																																																																0
+1 Magic Torso + 1 Jewel Fragment + 1 Eld Rune + Perfect Topaz -> Bountiful Torso	1			100					4	tors,mag,noe	jfg	r05,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50																																																																					0
+1 Magic Torso + 1 Jewel Fragment + 1 Eld Rune + Perfect Topaz -> Bountiful Torso	1			100					4	tors,mag,eth	jfg	r05,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	ac%			25	50	ethereal	100		1	1																																																																0
+1 Magic Amulet + 1 Jewel Fragment + 1 Ko Rune + Perfect Topaz -> Bountiful Amulet	1			100					4	amul,mag	jfg	r10,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	vit			10	20																																																																					0
+1 Magic Ring + 1 Jewel Fragment + 1 Lum Rune + Perfect Topaz -> Bountiful Ring	1			100					4	ring,mag	jfg	r09,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			10	15	gold%			30	60	vit			5	10																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Topaz -> Bountiful Weapon	1			100					4	weap,mag,noe	jfg	r01,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	dmg%			55	80																																																																					0
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Topaz -> Bountiful Weapon	1			100					4	weap,mag,eth	jfg	r01,qty=1	gpy,qty=1				usetype,crf		50	50	mag%			20	30	gold%			30	60	dmg%			55	80	ethereal	100		1	1																																																																0
+LARZUK'S GIMLET	0																																																																																																							0
+Larzuk's Gimlet + 1H Weapon -> 1H Weapon with 2-4 Sockets	1			100					2	weap,nos	lzg,qty=1						useitem			50	sock	100		2	4																																																																															0
+Larzuk's Gimlet + 2H weapon -> 2H Weapon with 3-6 Sockets	1			100					2	weap,nos	lzg,qty=1						useitem			50	sock	100		3	6												25		1	1																																																																0
+Larzuk's Gimlet + Torso -> 2-4 Sockets	1			100					2	tors,nos	lzg,qty=1						useitem			50	sock	100		2	4																																																																															0
+Larzuk's Gimlet + 2H Weapon > + 3-6 Sockets	1			100					2	2han,nos	lzg,qty=1						useitem			100	sock			3	6																																																																															0
+Larzuk's Gimlet + Bow > + 3-6 Sockets	1			100					2	bow,nos	lzg,qty=1						useitem			100	sock			3	6																																																																															0
+Larzuk's Gimlet + xBow > + 3-6 Sockets	1			100					2	xbow,nos	lzg,qty=1						useitem			100	sock			3	6																																																																															0
+Larzuk's Gimlet + 1H Weapon > + 2-4 Sockets	1			100					2	weap,nos	lzg,qty=1						useitem			100	sock			2	4																																																																															0
+Larzuk's Gimlet + Helm > + 2-3 Sockets	1			100					2	helm,nos	lzg,qty=1						useitem			100	sock			2	3																																																																															0
+Larzuk's Gimlet + Torso > + 2-4 Sockets	1			100					2	tors,nos	lzg,qty=1						useitem			100	sock			2	4																																																																															0
+Larzuk's Gimlet + Shield > + 2-4 Sockets	1			100					2	shld,nos	lzg,qty=1						useitem			100	sock			2	4																																																																															0
+UNIQUE REROLL	0																																																																																																							0
+JEWELRY	0																																																																																																							0
+4 Orb of Eternity + Unique Ring -> Reroll Stats	1			100					5	erb	erb	erb	erb	ring,uni			usetype,uni		99	99																																																																																				0
+4 Orb of Eternity + Unique Amulet -> Reroll Stats	1			100					5	erb	erb	erb	erb	amul,uni			usetype,uni		99	99																																																																																				0
+NORMAL UNIQUE	0																																																																																																							0
+1 Orb of Eternity + Unique Armor -> Reroll Stats	1			100					2	erb	armo,bas,uni						usetype,uni		99	99																																																																																				0
+1 Orb of Eternity + Unique Weapon -> Reroll Stats	1			100					2	erb	weap,bas,uni						usetype,uni		99	99																																																																																				0
+EXCEPTIONAL UNIQUE	0																																																																																																							0
+2 Orb of Eternity + Unique Armor -> Reroll Stats	1			100					3	erb	erb	armo,exc,uni					usetype,uni		99	99																																																																																				0
+2 Orb of Eternity + Unique Weapon -> Reroll Stats	1			100					3	erb	erb	weap,exc,uni					usetype,uni		99	99																																																																																				0
+ELITE UNIQUE	0																																																																																																							0
+3 Orb of Eternity + Unique Armor -> Reroll Stats	1			100					4	erb	erb	erb	armo,eli,uni				usetype,uni		99	99																																																																																				0
+3 Orb of Eternity + Unique Weapon -> Reroll Stats	1			100					4	erb	erb	erb	weap,eli,uni				usetype,uni		99	99																																																																																				0
+SET REROLL	0																																																																																																							0
+JEWELRY	0																																																																																																							0
+4 Orb of Eternity + Set Ring -> Reroll Stats	1			100					5	erb	erb	erb	erb	ring,set			usetype,set		99	99																																																																																				0
+4 Orb of Eternity + Set Amulet -> Reroll Stats	1			100					5	erb	erb	erb	erb	amul,set			usetype,set		99	99																																																																																				0
+NORMAL SET	0																																																																																																							0
+1 Orb of Eternity + Set Armor -> Reroll Stats	1			100					2	erb	armo,bas,set						usetype,set		99	99																																																																																				0
+1 Orb of Eternity + Set Weapon -> Reroll Stats	1			100					2	erb	weap,bas,set						usetype,set		99	99																																																																																				0
+EXCEPTIONAL SET	0																																																																																																							0
+2 Orb of Eternity + Set Armor -> Reroll Stats	1			100					3	erb	erb	armo,exc,set					usetype,set		99	99																																																																																				0
+2 Orb of Eternity + Set Weapon -> Reroll Stats	1			100					3	erb	erb	weap,exc,set					usetype,set		99	99																																																																																				0
+ELITE SET	0																																																																																																							0
+3 Orb of Eternity + Set Armor -> Reroll Stats	1			100					4	erb	erb	erb	armo,eli,set				usetype,set		99	99																																																																																				0
+3 Orb of Eternity + Set Weapon -> Reroll Stats	1			100					4	erb	erb	erb	weap,eli,set				usetype,set		99	99																																																																																				0
+CHARM CORE	0																																																																																																							0
+Magic Small Charm -> Charm Core	1			100					1	cm1,mag							cre																																																																																							0
+Magic Medium Charm -> Charm Core	1			100					1	cm2,mag							cre																																																																																							0
+Magic Large Charm -> Charm Core	1			100					1	cm3,mag							cre																																																																																							0
+CLASS CHARMS	0																																																																																																							0
+AMAZON	0																																																																																																							0
+Amazon's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Amazon's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Amazon's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Amazon's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Amazon's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Amazon's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk0	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Amazon's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Amazon's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Amazon's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Amazon's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Amazon's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Amazon's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Amazon's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Amazon's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Amazon's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Amazon's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Amazon's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Amazon's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+ASSASSIN	0																																																																																																							0
+Assassin's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Assassin's Fervor	Annihilus	cre					useitem,add		99	99	allskills			1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Assassin's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Assassin's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Assassin's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Assassin's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk6	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Assassin's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Assassin's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Assassin's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Assassin's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Assassin's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Assassin's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Assassin's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Assassin's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Assassin's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Assassin's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Assassin's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Assassin's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+BARBARIAN	0																																																																																																							0
+Barbarian's Fervor+ Annihilus + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Barbarian's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Barbarian's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk4	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Barbarian's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Barbarian's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Barbarian's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Barbarian's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Barbarian's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Barbarian's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Barbarian's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+DRUID	0																																																																																																							0
+Druid's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Druid's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Druid's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Druid's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Druid's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Druid's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk5	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Druid's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Druid's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Druid's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Druid's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Druid's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Druid's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Druid's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Druid's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Druid's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Druid's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Druid's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Druid's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+NECROMANCER	0																																																																																																							0
+Necromancer's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Necromancer's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Necromancer's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk2	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Necromancer's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Necromancer's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Necromancer's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Necromancer's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Necromancer's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Necromancer's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Necromancer's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+PALADIN	0																																																																																																							0
+Paladin's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Paladin's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Paladin's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Paladin's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Paladin's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Paladin's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk3	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Paladin's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Paladin's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Paladin's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Paladin's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Paladin's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Paladin's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Paladin's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Paladin's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Paladin's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Paladin's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Paladin's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Paladin's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+SORCERESS	0																																																																																																							0
+Sorceress's Fervor + Annihilus + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Annihilus	cre					useitem,add		99	99	allskills	100		1	1	all-stats	100		20	20	res-all	100		20	20	addxp	100		10	10	levelreq	100		5	5																																																											0
+Sorceress's Fervor + Gheed's Fortune + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Gheed's Fortune	cre					useitem,add		99	99	mag%	100		40	40	gold%	100		160	160	cheap	100		15	15	levelreq	100		5	5																																																																0
+Sorceress's Fervor + Hellfire Torch + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Hellfire Torch	cre					useitem,add		99	99	clsk1	100		3	3	all-stats	100		20	20	res-all	100		20	20	light	100		8	8	levelreq	100		5	5																																																											0
+Sorceress's Fervor + Cold Rupture + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Cold Rupture	cre					useitem,add		99	99	pierce-immunity-cold	100		300	300	res-cold	100		-90	-90	levelreq	100		5	5																																																																					0
+Sorceress's Fervor + Flame Rift + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Flame Rift	cre					useitem,add		99	99	pierce-immunity-fire	100		300	300	res-fire	100		-90	-90	levelreq	100		5	5																																																																					0
+Sorceress's Fervor + Crack of the Heavens + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Crack of the Heavens	cre					useitem,add		99	99	pierce-immunity-light	100		300	300	res-ltng	100		-90	-90	levelreq	100		5	5																																																																					0
+Sorceress's Fervor + Rotting Fissure + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Rotting Fissure	cre					useitem,add		99	99	pierce-immunity-poison	100		300	300	res-pois	100		-90	-90	levelreq	100		5	5																																																																					0
+Sorceress's Fervor + Bone Break + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Bone Break	cre					useitem,add		99	99	pierce-immunity-damage	100		300	300	red-dmg%	100		-20	-20	levelreq	100		5	5																																																																					0
+Sorceress's Fervor + Black Cleft + Charm Core -> Combined	1			100					3	Sorceress's Fervor	Black Cleft	cre					useitem,add		99	99	pierce-immunity-magic	100		300	300	res-mag	100		-65	-65	levelreq	100		5	5																																																																					0
+TEMPERING	0																																																																																																							0
+CREATION	0																																																																																																							0
+Magic Weapon + Orb of Eternity -> Tempered Weapon	1			100					2	weap,mag	erb						useitem,tmp		99	99																																																																																				0
+Magic Armor + Orb of Eternity -> Tempered Armor	1			100					2	armor,mag	erb						useitem,tmp		99	99																																																																																				0
+Magic Ring + Orb of Eternirty -> Tempered Ring	1			100					2	ring,mag	erb						useitem,tmp		99	99																																																																																				0
+Magic Amulet + Orb of Eternirty -> Tempered Amulet	1			100					2	amu,mag	erb						useitem,tmp		99	99																																																																																				0
+TEMPERED WEAPON	0																																																																																																							0
+Tempered Weapon + Jewel Fragment + Perfect Amethyst -> Weapon + Attack Rating	1			100					3	weap,tmp	jfg	gpv					useitem				att			150	150																																																																															0
+Tempered Weapon + Jewel Fragment + Perfect Diamond -> Weapon + Damage to Undead	1			100					3	weap,tmp	jfg	gpw					useitem				dmg-undead			68	68																																																																															0
+Tempered Weapon + Jewel Fragment + Perfect Emerald -> Weapon + Poison Damage	1			100					3	weap,tmp	jfg	gpg					useitem				dmg-pois		175	100	100																																																																															0
+Tempered Weapon + Jewel Fragment + Perfect Ruby -> Weapon + Fire Damage	1			100					3	weap,tmp	jfg	gpr					useitem				dmg-fire			15	20																																																																															0
+Tempered Weapon + Jewel Fragment + Perfect Sapphire -> Weapon + Cold Damage	1			100					3	weap,tmp	jfg	gpb					useitem				dmg-cold		75	10	14																																																																															0
+Tempered Weapon + Jewel Fragment + Perfect Skull -> Weapon + Dual Leech	1			100					3	weap,tmp	jfg	skz					useitem				lifesteal			4	4	manasteal			3	3																																																																										0
+Tempered Weapon + Jewel Fragment + Perfect Topaz -> Weapon + Lightning Damage	1			100					3	weap,tmp	jfg	gpy					useitem				dmg-ltng			1	40																																																																															0
+TEMPTERED ARMOR	0																																																																																																							0
+Tempered Armor + Jewel Fragment + Perfect Amethyst -> Armor + Strength	1			100					3	armo,tmp	jfg	gpv					useitem				str			10	10																																																																															0
+Tempered Armor + Jewel Fragment + Perfect Diamond -> Armor + Attack Rating	1			100					3	armo,tmp	jfg	gpw					useitem				att			100	100																																																																															0
+Tempered Armor + Jewel Fragment + Perfect Emerald -> Armor + Dexterity	1			100					3	armo,tmp	jfg	gpg					useitem				dex			10	10																																																																															0
+Tempered Armor + Jewel Fragment + Perfect Ruby -> Armor + Life	1			100					3	armo,tmp	jfg	gpr					useitem				hp			38	38																																																																															0
+Tempered Armor + Jewel Fragment + Perfect Sapphire -> Armor + Mana	1			100					3	armo,tmp	jfg	gpb					useitem				mana			38	38																																																																															0
+Tempered Armor + Jewel Fragment + Perfect Skull -> Armor + Life & Mana Regeneration	1			100					3	armo,tmp	jfg	skz					useitem				regen			5	5	regen-mana			19	19																																																																										0
+Tempered Armor + Jewel Fragment + Perfect Topaz -> Armor + Magic Find	1			100					3	armo,tmp	jfg	gpy					useitem				mag%			24	24																																																																															0
+TEMPERED RING	0																																																																																																							0
+Tempered Ring + Jewel Fragment + Perfect Amethyst -> Ring + Flat Damage Reduction	1			100					3	ring,tmp	jfg	gpv					useitem				red-dmg			2	2																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Diamond -> Ring + Faster Block Rate	1			100					3	ring,tmp	jfg	gpw					useitem				block1			3	3																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Emerald -> Ring + Faster Attack Speed	1			100					3	ring,tmp	jfg	gpg					useitem				swing1			3	3																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Ruby -> Ring + Faster Hit Recovery	1			100					3	ring,tmp	jfg	gpr					useitem				balance1			3	3																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Sapphire -> Ring + Damage to Mana	1			100					3	ring,tmp	jfg	gpb					useitem				dmg-to-mana			3	3																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Skull -> Ring + Flat Magic Reduction	1			100					3	ring,tmp	jfg	skz					useitem				red-mag			2	2																																																																															0
+Tempered Ring + Jewel Fragment + Perfect Topaz -> Ring + Faster Cast Rate	1			100					3	ring,tmp	jfg	gpy					useitem				cast1			3	3																																																																															0
+TEMPERED AMULET	0																																																																																																							0
+Tempered Amulet + Jewel Fragment + Perfect Amethyst -> Amulet + Defense	1			100					3	amu,tmp	jfg	gpv					useitem				ac			30	30																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Diamond -> Amulet + All Resistance	1			100					3	amu,tmp	jfg	gpw					useitem				res-all			19	19																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Emerald -> Amulet + Poison Resistance	1			100					3	amu,tmp	jfg	gpg					useitem				res-pois			40	40																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Ruby -> Amulet + Fire Resistance	1			100					3	amu,tmp	jfg	gpr					useitem				res-fire			40	40																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Sapphire -> Amulet + Cold Resistance	1			100					3	amu,tmp	jfg	gpb					useitem				res-cold			40	40																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Skull -> Amulet + Thorns	1			100					3	amu,tmp	jfg	skz					useitem				thorns			20	20																																																																															0
+Tempered Amulet + Jewel Fragment + Perfect Topaz -> Amulet + Lightning Resistance	1			100					3	amu,tmp	jfg	gpy					useitem				res-ltng			40	40																																																																															0
+TESTS																																																																																																								0
+Unique	1			100					1	weap,set							usetype,uni	99	99	99																																																																																				0
+Unique	1			100					1	armo,set							usetype,uni	99	99	99																																																																																				0
+Unique	1			100					1	ring,mag							usetype,uni	99	99	99																																																																																				0
+Unique	1			100					1	amu,mag							usetype,uni	99	99	99																																																																																				0
+Set	1			100					1	weap,mag							usetype,set	99	99	99																																																																																				0
+Set	1			100					1	armo,mag							usetype,set	99	99	99																																																																																				0
+Set	1			100					1	ring,uni							usetype,set	99	99	99																																																																																				0
+Set	1			100					1	amu,uni							usetype,set	99	99	99																																																																																				0
+TOA	1			100					1	rvs							toa																																																																																							0

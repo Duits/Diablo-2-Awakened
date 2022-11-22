@@ -1,0 +1,206 @@
+{
+    "type": "SettingsPanel",
+    "name": "ModGuidePanel",
+    "fields": {
+        "priority": 99,
+        "rect": {
+            "x": 235,
+            "y": -651,
+            "width": 1750,
+            "height": 1506
+        },
+        "anchor": "$LeftPanelAnchor"
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget",
+            "name": "click_catcher",
+            "fields": {
+                "rect": {
+                    "width": 1750,
+                    "height": 1506
+                }
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "Background",
+            "fields": {
+                "filename": "\\PANEL\\Options\\FrontEndOptionsBG"
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "LeftSideSprite",
+            "fields": {
+                "priority": 1,
+                "rect": {
+                    "x": -235,
+                    "y": -206
+                },
+                "filename": "PANEL\\Docking_Bar\\SidePanel_L"
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "LeftHinge",
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "IvTitle",
+            "fields": {
+                "rect": {
+                    "x": 135,
+                    "y": 35,
+                    "width": 1560,
+                    "height": 103
+                },
+                "text": "@UIGuide",
+                "style": "$StyleTitleBlock"
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "Close2",
+            "fields": {
+                "rect": {
+                    "x": 1667,
+                    "y": 9
+                },
+                "filename": "PANEL\\closebtn_4x",
+                "hoveredFrame": 3,
+                "onClickMessage": "PanelManager:ClosePanel:ModGuidePanel",
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd",
+                "acceptsEscKeyEverywhere": true
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "SettingsBackground",
+            "fields": {
+                "rect": {
+                    "x": 80,
+                    "y": 245,
+                    "width": "$OptionsPanelWidth",
+                    "height": "$OptionsPanelHeight"
+                }
+            }
+        },
+        {
+            "type": "TabBarWidget",
+            "name": "OptionsTabs",
+            "fields": {
+                "rect": {
+                    "x": -150,
+                    "y": 150,
+                    "width": 2128,
+                    "height": 70
+                },
+                "anchor": {
+                    "x": 0,
+                    "y": 0
+                },
+                "tabCount": 3,
+                "tabSize": {
+                    "x": 250,
+                    "y": 70
+                },
+                "tabPadding": {
+                    "x": 0,
+                    "y": 0
+                },
+                "unavailableTabsLeaveGaps": true,
+                "tabSizingMethod": "fixedCenter",
+                "filename": "\\PANEL\\Options\\options_tab",
+                "inactiveFrames": [
+                    0,
+                    0,
+                    0
+                ],
+                "activeFrames": [
+                    1,
+                    1,
+                    1
+                ],
+                "activeTextColor": "$TabsActiveTextColor",
+                "inactiveTextColor": "$TabsInactiveTextColor",
+                "tabTextOffset": {
+                    "x": 0,
+                    "y": -4
+                },
+                "textStyle": {
+                    "options": {
+                        "lineWrap": true
+                    },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "fontColor": "$FontColorWhite",
+                    "spacing": {
+                        "leading": 0.9,
+                        "kerning": 0.95
+                    }
+                },
+                "textStrings": [
+                    "@modCreator",
+                    "@InfoBase",
+                    "@Offmod"
+                ],
+                "tabMessages": [
+                    "SettingsPanelMessage:CheckChanges:ModCreatorPanel",
+                    "SettingsPanelMessage:CheckChanges:ModInfoBase",
+                    "SettingsPanelMessage:CheckChanges:ModOffmod"
+                ]
+            }
+        },
+        {
+            "type": "TableWidget",
+            "name": "ActionButtonsTable",
+            "fields": {
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0
+                },
+                "rect": {
+                    "x": -750,
+                    "y": 1800
+                },
+                "columns": [
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    },
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    },
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    }
+                ],
+                "rowHeight": 120,
+                "cellPadding": {
+                    "left": 0,
+                    "right": 0
+                }
+            }
+        }
+    ]
+}

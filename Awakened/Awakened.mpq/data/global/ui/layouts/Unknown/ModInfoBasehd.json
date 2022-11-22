@@ -1,0 +1,885 @@
+{
+    "type": "SettingsPanel",
+    "name": "ModInfoBase",
+    "fields": {
+        "priority": 9003,
+        "rect": {
+            "x": 165,
+            "y": 375,
+            "width": "$OptionsPanelWidth",
+            "height": "$OptionsPanelHeight"
+        },
+        "anchor": {
+            "x": 0,
+            "y": 0
+        },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "blank",
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "blank"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
+                    "fields": {
+                        "rect": {
+                            "x": -7,
+                            "y": 80,
+                            "width": 26,
+                            "height": 1152
+                        },
+                        "anchor": {
+                            "x": 1.0
+                        },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
+                    "fields": {
+                        "columns": [
+                            "$OptionsTableColumn1",
+                            "$OptionsTableColumn2"
+                        ],
+                        "rowHeight": "$ModTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget",
+                            "name": "InfoBase",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "InfoBaseTitle",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 150,
+                                            "y": 100
+                                        },
+                                        "text": "@InfoBase00",
+                                        "style": "$StyleModsViewTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "InfoBase01",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "InfoBaseText01",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 150,
+                                            "y": 100
+                                        },
+                                        "text": "@InfoBase01",
+                                        "style": "$StyleModsViewTextM"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "infoBase02",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "InfoBaseText02",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 150,
+                                            "y": 100
+                                        },
+                                        "text": "@InfoBase02",
+                                        "style": "$StyleModsViewTextLT"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "InfoBase03",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "InfoBaseText03",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 150,
+                                            "y": 100
+                                        },
+                                        "text": "@InfoBase03",
+                                        "style": "$StyleModsViewTextLT"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Spacer"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "UniqueWeaponsBlankRow",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "UniqueWeaponsBlankText",
+                                    "fields": {
+                                        "text": " ",
+                                        "style": "$StyleModsViewItemsText"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Awakened",
+    "savepath": "./Awakened",
+    "comments": "Awakened Mod. Place this .json file and the data folder into D2R/Mods/Awakened/Awakened.mpq/ (Awakened.mpq is a folder name not an MPQ file). Launch D2R with -mod Awakened -txt"
+}
