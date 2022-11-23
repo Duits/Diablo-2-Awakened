@@ -1,0 +1,298 @@
+QUEST
+Staff of Kings + Amulet of the Viper -> Horadric Staff
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level
+1 T-Key + 1 H-Key + 1 D-Key -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)
+1 Twisted Essence + 1 Charged Essence + 1 Burning Essence + 1 Festering Essence -> Token of Absolution
+POTIONS
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Perfect Gem (Any) -> Full Rejuvenation Potion
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Perfect Gem (Any) -> Rejuvenation Potion
+3 Rejuvenation Potions -> Full Rejuvenation Potion
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion
+QUIVERS
+2 Arrows -> Bolts
+2 Bolts -> Arrows
+NORMAL WEAPONS
+1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe
+1 Spear (Any) + 1 Arrows -> Javelins
+MAGIC JEWELRY CRAFTING
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring
+1 Magic Ring + 1 Perfect Emerald + 1 Antidote Potion -> Jade Ring
+1 Magic Shield + 1 Spiked Club + 2 Perfect Skulls -> Magic Shield of Spikes
+4 Healing Potions (Any) + 1 Perfect Ruby + 1 Magic Sword -> Sword of the Leech
+1 Perfect Diamond + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm
+REROLL MAGIC
+3 Magic Rings -> Magic Amulet
+3 Magic Amulets -> Magic Ring
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item
+RANDOM AFFIX RARE CRAFTS
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item
+REPAIR GEAR
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon
+1 Ral Rune + 1 Armor -> Fully Repaired Armor
+REPAIR AND RECHARGE
+1 Ort Rune + 1 Perfect Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon
+1 Ral Rune + 1 Perfect Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor
+NORMAL ITEM SOCKETING
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield
+MAGIC ITEM SOCKETING
+3 Perfect Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon
+3 Perfect Gems + 1 Socketed Weapon ->  Socketed Magic Weapon
+3 Perfect Gems + 1 Magic Weapon -> Socketed Magic Weapon
+RARE ITEM SOCKETING
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item
+REMOVE SOCKETS
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item
+1 Zod Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item (Keeps Socketables)
+NORMAL ITEM LOWQ -> NORM
+1 Eld Rune + 1 Perfect Gem (Any) + 1 Low Quality Weapon -> Normal Weapon
+1 El Rune + 1 Perfect Gem (Any) + 1 Low Quality Armor -> Normal Armor
+UNIQUE ITEM UPTIER
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor
+RARE ITEM UPTIER
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor
+CRAFTED ITEM UPTIER
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Basic Crafted Weapon -> Exceptional Crafted Weapon
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Basic Crafted Armor -> Exceptional Crafted Armor
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Crafted Weapon -> Elite Crafted Weapon
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Excetptional Crafted Armor -> Elite Crafted Armor
+SET ITEM UPTIER
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor
+RUNE UPTIER
+3 El Runes -> Eld Rune
+3 Eld Runes -> Tir Rune
+3 Tir Runes -> Nef Rune
+3 Nef Runes -> Eth Rune
+3 Eth Runes -> Ith Rune
+3 Ith Runes -> Tal Rune
+3 Tal Runes -> Ral Rune
+3 Ral Runes -> Ort Rune
+3 Ort Runes -> Thul Rune
+3 Thul Runes -> Amn Rune
+3 Amn Runes -> Sol Rune
+3 Sol Runes -> Shael Rune
+3 Shael Runes -> Dol Rune
+3 Dol Runes -> Hel Rune
+3 Hel Runes -> Io Rune
+3 Io Runes -> Lum Rune
+3 Lum Runes -> Ko Rune
+3 Ko Runes -> Fal Rune
+3 Fal Runes-> Lem Rune
+3 Lem Runes -> Pul Rune
+2 Pul Runes -> Um Rune
+2 Um Runes -> Mal Rune
+2 Mal Runes -> Ist Rune
+2 Ist Runes -> Gul Rune
+2 Gul Runes -> Vex Rune
+2 Vex Runes -> Ohm Rune
+2 Ohm Runes -> Lo Rune
+2 Lo Runes -> Sur Rune
+2 Sur Runes -> Ber Rune
+2 Ber Runes -> Jah Rune
+2 Jah Runes -> Cham Rune
+2 Cham Runes -> Zod Rune
+RUNE DOWNGRADE
+1 Eld Rune + 1 Key-> El Rune
+1 Tir Rune + 1 Key-> Eld Rune
+1 Nef Rune + 1 Key-> Tir Rune
+1 Eth Rune + 1 Key-> Nef Rune
+1 Ith Rune + 1 Key-> Eth Rune
+1 Tal Rune + 1 Key-> Ith Rune
+1 Ral Rune + 1 Key-> Tal Rune
+1 Ort Rune + 1 Key-> Ral Rune
+1 Thul Rune + 1 Key -> Ort Rune
+1 Amn Rune + 1 Key -> Thul Rune
+1 Sol Rune + 1 Key -> Amn Rune
+1 Shael Rune + 1 Key -> Sol Rune
+1 Dol Rune + 1 Key -> Shael Rune
+1 Hel Rune + 1 Key -> Dol Rune
+1 Io Rune + 1 Key -> Hel Rune
+1 Lum Rune + 1 Key -> Io Rune
+1 Ko Rune + 1 Key -> Lum Rune
+1 Fal Rune + 1 Key -> Ko Rune
+1 Lem Rune + 1 Key -> Fal Rune
+1 Pul Rune + 1 Key -> Lem Rune
+1 Um Rune + 1 Key -> Pul Rune
+1 Mal Rune + 1 Key -> Um Rune
+1 Ist Rune + 1 Key -> Mal Rune
+1 Gul Rune + 1 Key -> Ist Rune
+1 Vex Rune + 1 Key -> Gul Rune
+1 Ohm Rune + 1 Key -> Vex Rune
+1 Lo Rune + 1 Key -> Ohm Rune
+1 Sur Rune + 1 Key -> Lo Rune
+1 Ber Rune + 1 Key -> Sur Rune
+1 Jah Rune + 1 Key -> Ber Rune
+1 Cham Rune + 1 Key -> Jah Rune
+1 Zod  Rune + 1 Key -> Cham Rune
+STACKING
+Unstacked Variant -> Stacked Variant
+UNSTACKING
+Stacked Variant -> Unstacked Variant
+JEWEL TO FRAGMENT
+Magic Jewel -> 1 Jewel Fragment
+Rare Jewel -> 2 Jewel Fragment
+Unique Jewel -> 3 Jewel Fragment
+BUILD RECIPES
+Magic Weapon + 1 Jewel Fragment + 1 Orb of Eternity -> Normal Set Weapon
+Magic Armor + 1 Jewel Fragment + 1 Orb of Eternity -> Normal Set Armor
+CRAFTING RECIPES
+HITPOWER
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Sapphire -> Hitpower Helm
+1 Magic Boots + 1 Jewel Fragment + 1 Ral Rune + Perfect Sapphire -> Hitpower Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Sapphire -> Hitpower Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Sapphire -> Hitpower Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Sapphire -> Hitpower Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Nef Rune + Perfect Sapphire -> Hitpower Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Thul Rune + Perfect Sapphire -> Hitpower Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Sapphire -> Hitpower Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Sapphire -> Hitpower Weapon
+BLOOD
+1 Magic Helm + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Ral Rune + Perfect Ruby -> Blood Helm
+1 Magic Boots + 1 Jewel Fragment + 1 Eth Rune + Perfect Ruby -> Blood Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Nef Rune + Perfect Ruby -> Blood Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Ruby -> Blood Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Ruby -> Blood Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Thul Rune + Perfect Ruby -> Blood Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Amn Rune + Perfect Ruby -> Blood Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Sol Rune + Perfect Ruby -> Blood Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Ort Rune + Perfect Ruby -> Blood Weapon
+CASTER
+1 Magic Helm + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Nef Rune + Perfect Amethyst -> Caster Helm
+1 Magic Boots + 1 Jewel Fragment + 1 Thul Rune + Perfect Amethyst -> Caster Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Ort Rune + Perfect Amethyst -> Caster Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 Ith Rune + Perfect Amethyst -> Caster Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Eth Rune + Perfect Amethyst -> Caster Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Tal Rune + Perfect Amethyst -> Caster Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Ral Rune + Perfect Amethyst -> Caster Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Amethyst -> Caster Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Tir Rune + Perfect Amethyst -> Caster Weapon
+SAFETY
+1 Magic Helm + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Ith Rune + Perfect Emerald -> Safety Helm
+1 Magic Boots + 1 Jewel Fragment + 1 Ort Rune + Perfect Emerald -> Safety Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Ral Rune + Perfect Emerald -> Safety Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 Tal Rune + Perfect Emerald -> Safety Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Nef Rune + Perfect Emerald -> Safety Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Eth Rune + Perfect Emerald -> Safety Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Thul Rune + Perfect Emerald -> Safety Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Amn Rune + Perfect Emerald -> Safety Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Sol Rune + Perfect Emerald -> Safety Weapon
+UNEARTHLY
+1 Magic Helm + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Lum Rune + Perfect Skull -> Unearthly Helm
+1 Magic Boots + 1 Jewel Fragment + 1 El Rune + Perfect Skull -> Unearthly Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Io Rune + Perfect Skull -> Unearthly Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 Eld Rune + Perfect Skull -> Unearthly Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Ith Rune + Perfect Skull -> Unearthly Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Tir Rune + Perfect Skull -> Unearthly Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Dol Rune + Perfect Skull -> Unearthly Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Hel Rune + Perfect Skull  -> Unearthly Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Skull -> Unearthly Weapon
+BOUNTIFUL
+1 Magic Helm + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm
+1 Magic Circlet + 1 Jewel Fragment + 1 Tir Rune + Perfect Topaz -> Bountiful Helm
+1 Magic Boots + 1 Jewel Fragment + 1 Io Rune + Perfect Topaz -> Bountiful Boots
+1 Magic Gloves + 1 Jewel Fragment + 1 Hel Rune + Perfect Topaz -> Bountiful Gloves
+1 Magic Belt + 1 Jewel Fragment + 1 El Rune + Perfect Topaz -> Bountiful Belt
+1 Magic Shield + 1 Jewel Fragment + 1 Dol Rune + Perfect Topaz -> Bountiful Shield
+1 Magic Torso + 1 Jewel Fragment + 1 Eld Rune + Perfect Topaz -> Bountiful Torso
+1 Magic Amulet + 1 Jewel Fragment + 1 Ko Rune + Perfect Topaz -> Bountiful Amulet
+1 Magic Ring + 1 Jewel Fragment + 1 Lum Rune + Perfect Topaz -> Bountiful Ring
+1 Magic Weapon + 1 Jewel Fragment + 1 Shael Rune + Perfect Topaz -> Bountiful Weapon
+LARZUK'S GIMLET
+Larzuk's Gimlet + 1H Weapon -> 1H Weapon with 2-4 Sockets
+Larzuk's Gimlet + 2H weapon -> 2H Weapon with 3-6 Sockets
+Larzuk's Gimlet + Torso -> 2-4 Sockets
+Larzuk's Gimlet + 2H Weapon > + 3-6 Sockets
+Larzuk's Gimlet + Bow > + 3-6 Sockets
+Larzuk's Gimlet + xBow > + 3-6 Sockets
+Larzuk's Gimlet + 1H Weapon > + 2-4 Sockets
+Larzuk's Gimlet + Helm > + 2-3 Sockets
+Larzuk's Gimlet + Torso > + 2-4 Sockets
+Larzuk's Gimlet + Shield > + 2-4 Sockets
+UNIQUE REROLL
+JEWELRY
+4 Orb of Eternity + Unique Ring -> Reroll Stats
+4 Orb of Eternity + Unique Amulet -> Reroll Stats
+NORMAL UNIQUE
+1 Orb of Eternity + Unique Armor -> Reroll Stats
+1 Orb of Eternity + Unique Weapon -> Reroll Stats
+EXCEPTIONAL UNIQUE
+2 Orb of Eternity + Unique Armor -> Reroll Stats
+2 Orb of Eternity + Unique Weapon -> Reroll Stats
+ELITE UNIQUE
+3 Orb of Eternity + Unique Armor -> Reroll Stats
+3 Orb of Eternity + Unique Weapon -> Reroll Stats
+SET REROLL
+JEWELRY
+4 Orb of Eternity + Set Ring -> Reroll Stats
+4 Orb of Eternity + Set Amulet -> Reroll Stats
+NORMAL SET
+1 Orb of Eternity + Set Armor -> Reroll Stats
+1 Orb of Eternity + Set Weapon -> Reroll Stats
+EXCEPTIONAL SET
+2 Orb of Eternity + Set Armor -> Reroll Stats
+2 Orb of Eternity + Set Weapon -> Reroll Stats
+ELITE SET
+3 Orb of Eternity + Set Armor -> Reroll Stats
+3 Orb of Eternity + Set Weapon -> Reroll Stats
+CLASS CHARMS
+Class Charm + Unique Charm + Charm Core -> Class Charm with Unique Charm's Stats Added
+TEMPERING
+CREATION
+Magic Weapon + Orb of Eternity -> Tempered Weapon
+Magic Armor + Orb of Eternity -> Tempered Armor
+Magic Ring + Orb of Eternirty -> Tempered Ring
+Magic Amulet + Orb of Eternirty -> Tempered Amulet
+TEMPERED WEAPON
+Tempered Weapon + Jewel Fragment + Perfect Amethyst -> Weapon + Attack Rating
+Tempered Weapon + Jewel Fragment + Perfect Diamond -> Weapon + Damage to Undead
+Tempered Weapon + Jewel Fragment + Perfect Emerald -> Weapon + Poison Damage
+Tempered Weapon + Jewel Fragment + Perfect Ruby -> Weapon + Fire Damage
+Tempered Weapon + Jewel Fragment + Perfect Sapphire -> Weapon + Cold Damage
+Tempered Weapon + Jewel Fragment + Perfect Skull -> Weapon + Dual Leech
+Tempered Weapon + Jewel Fragment + Perfect Topaz -> Weapon + Lightning Damage
+TEMPTERED ARMOR
+Tempered Armor + Jewel Fragment + Perfect Amethyst -> Armor + Strength
+Tempered Armor + Jewel Fragment + Perfect Diamond -> Armor + Attack Rating
+Tempered Armor + Jewel Fragment + Perfect Emerald -> Armor + Dexterity
+Tempered Armor + Jewel Fragment + Perfect Ruby -> Armor + Life
+Tempered Armor + Jewel Fragment + Perfect Sapphire -> Armor + Mana
+Tempered Armor + Jewel Fragment + Perfect Skull -> Armor + Life & Mana Regeneration
+Tempered Armor + Jewel Fragment + Perfect Topaz -> Armor + Magic Find
+TEMPERED RING
+Tempered Ring + Jewel Fragment + Perfect Amethyst -> Ring + Flat Damage Reduction
+Tempered Ring + Jewel Fragment + Perfect Diamond -> Ring + Faster Block Rate
+Tempered Ring + Jewel Fragment + Perfect Emerald -> Ring + Faster Attack Speed
+Tempered Ring + Jewel Fragment + Perfect Ruby -> Ring + Faster Hit Recovery
+Tempered Ring + Jewel Fragment + Perfect Sapphire -> Ring + Damage to Mana
+Tempered Ring + Jewel Fragment + Perfect Skull -> Ring + Flat Magic Reduction
+Tempered Ring + Jewel Fragment + Perfect Topaz -> Ring + Faster Cast Rate
+TEMPERED AMULET
+Tempered Amulet + Jewel Fragment + Perfect Amethyst -> Amulet + Defense
+Tempered Amulet + Jewel Fragment + Perfect Diamond -> Amulet + All Resistance
+Tempered Amulet + Jewel Fragment + Perfect Emerald -> Amulet + Poison Resistance
+Tempered Amulet + Jewel Fragment + Perfect Ruby -> Amulet + Fire Resistance
+Tempered Amulet + Jewel Fragment + Perfect Sapphire -> Amulet + Cold Resistance
+Tempered Amulet + Jewel Fragment + Perfect Skull -> Amulet + Thorns
+Tempered Amulet + Jewel Fragment + Perfect Topaz -> Amulet + Lightning Resistance
